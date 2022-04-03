@@ -17,7 +17,7 @@
         <property name="format_sql">true</property>
         <property name="use_sql_comments">true</property>
 
-        <mapping class="ru.job4j.hibernate.manytomany.model.Author" />
-        <mapping class="ru.job4j.hibernate.manytomany.model.Book" />
+        <mapping class="ru.job4j.hibernate.lazyinit.model.Brand" />
+        <mapping class="ru.job4j.hibernate.lazyinit.model.Model" />
     </session-factory>
 </hibernate-configuration>
