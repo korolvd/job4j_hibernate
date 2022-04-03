@@ -1,12 +1,12 @@
-package ru.job4j.hibernate.manytomany;
+package ru.job4j.hibernate.manytomany.unidirectional;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import ru.job4j.hibernate.manytomany.model.Author;
-import ru.job4j.hibernate.manytomany.model.Book;
+import ru.job4j.hibernate.manytomany.unidirectional.model.Author;
+import ru.job4j.hibernate.manytomany.unidirectional.model.Book;
 
 public class HbmRun {
     public static void main(String[] args) {

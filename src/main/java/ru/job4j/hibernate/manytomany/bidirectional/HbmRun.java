@@ -1,12 +1,12 @@
-package ru.job4j.hibernate.lazyinit;
+package ru.job4j.hibernate.manytomany.bidirectional;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
-import ru.job4j.hibernate.lazyinit.model.Brand;
-import ru.job4j.hibernate.lazyinit.model.Model;
+import ru.job4j.hibernate.manytomany.bidirectional.model.Brand;
+import ru.job4j.hibernate.manytomany.bidirectional.model.Model;
 
 import java.util.ArrayList;
 import java.util.List;

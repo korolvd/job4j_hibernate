@@ -1,4 +1,4 @@
-package ru.job4j.hibernate.lazyinit.model;
+package ru.job4j.hibernate.manytomany.bidirectional.model;
 
 import javax.persistence.*;
 import java.util.ArrayList;

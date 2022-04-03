@@ -1,4 +1,4 @@
-package ru.job4j.hibernate.manytomany.model;
+package ru.job4j.hibernate.manytomany.unidirectional.model;
 
 import javax.persistence.*;
 
