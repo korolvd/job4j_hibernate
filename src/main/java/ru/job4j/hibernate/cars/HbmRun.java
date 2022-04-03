@@ -1,5 +1,7 @@
-import model.Brand;
-import model.Model;
+package ru.job4j.hibernate.cars;
+
+import ru.job4j.hibernate.cars.model.Brand;
+import ru.job4j.hibernate.cars.model.Model;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.MetadataSources;
