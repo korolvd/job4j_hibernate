@@ -1,22 +1,20 @@
-package ru.job4j.hibernate.cars.model;
+package ru.job4j.hibernate.manytomany.model;
 
 import javax.persistence.*;
 
 @Entity
-@Table(name = "model")
-public class Model {
+@Table(name = "book")
+public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
 
-    public Model() {
-    }
-
-    public static Model of(String name) {
-        Model model = new Model();
-        model.name = name;
-        return model;
+    public static Book of(String name) {
+        Book book = new Book();
+        book.name = name;
+        return book;
     }
 
     public int getId() {

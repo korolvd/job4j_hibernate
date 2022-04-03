@@ -1,4 +1,4 @@
-package ru.job4j.hibernate.books.model;
+package ru.job4j.hibernate.manytomany.model;
 
 import javax.persistence.*;
 import java.util.HashSet;

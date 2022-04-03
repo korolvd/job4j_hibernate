@@ -1,4 +1,4 @@
-package ru.job4j.hibernate.cars.model;
+package ru.job4j.hibernate.tomany.model;
 
 import javax.persistence.*;
 import java.util.ArrayList;
