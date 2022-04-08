@@ -8,7 +8,7 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 
 import java.util.List;
 
-public class HbmRun {
+public class HbmRunHQL {
     public static void main(String[] args) {
         final StandardServiceRegistry registry = new StandardServiceRegistryBuilder()
                 .configure().build();
@@ -17,9 +17,9 @@ public class HbmRun {
             Session session = sf.openSession();
             session.beginTransaction();
 
-            Candidate one = Candidate.of("Ivanov", 1.5, 120000);
-            Candidate two = Candidate.of("Petrov", 0.5, 50000);
-            Candidate three = Candidate.of("Sidorov", 1.0, 90000);
+            Candidate one = Candidate.of("Ivanov", 1.5, 120000, null);
+            Candidate two = Candidate.of("Petrov", 0.5, 50000, null);
+            Candidate three = Candidate.of("Sidorov", 1.0, 90000, null);
 
             session.save(one);
             session.save(two);

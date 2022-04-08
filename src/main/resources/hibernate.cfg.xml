@@ -17,6 +17,8 @@
         <property name="format_sql">true</property>
         <property name="use_sql_comments">true</property>
 
+        <mapping class="ru.job4j.hibernate.hql.Vacancy" />
+        <mapping class="ru.job4j.hibernate.hql.VacancyStore" />
         <mapping class="ru.job4j.hibernate.hql.Candidate" />
     </session-factory>
 </hibernate-configuration>
